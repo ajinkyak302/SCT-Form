@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="dummy.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="/sctspl/Images/tab-logo.png" type="image/x-icon">
+    <title>SCT Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .form-container{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body class="font-[Poppins] bg-gradient-to-t from-[#b6f492] to-[#ffffff] no-repeat min-h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-center items-center w-[92%] mx-auto z-10">
+            <a href="https://sctspl.com/index.html">
+                <img class="w-60 cursor-pointer" src="/Images/logo.png" alt="...">
+            </a>
+        </nav>
+    </header>
+
+
+    <div class="form-container text-gray-800">
+        <form action="https://formsubmit.co/ajinkya302@gmail.com" method="POST" class="bg-white p-8 rounded-lg shadow-md">
+            <input type="hidden" name="_template" value="basic">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="hidden" name="_autoresponse" value="Thank you for reaching out to SCT Solutions! We appreciate you taking the time to submit your entry. Your inquiry is important to us, and our team will get back to you shortly. If you have any immediate questions or need further assistance, please feel free to contact us at +919619773333 or email us at sales1@sctspl.com. We look forward to assisting you!">
+            
+            <div class="mb-4">
+                <div>Name: </div>
+                <input type="text" name="name" required class="border border-gray-300 rounded-md p-2 w-full mb-4">
+            </div>
+
+            <div class="mb-4">
+                <div>Company Name: </div>
+                <input type="text" name="comapny-name" required class="border border-gray-300 rounded-md p-2 w-full mb-4">
+            </div>
+            
+            <div class="mb-4">
+                <div>Mobile No. </div>
+                <input type="text" name="mobile-number" required class="border border-gray-300 rounded-md p-2 w-full mb-4">
+            </div>
+
+            <div class="mb-4">
+                <div>Email: </div>
+                <input type="email" name="email" required class="border border-gray-300 rounded-md p-2 w-full mb-4">
+            </div>
+            
+            <div class="flex items-center justify-center">
+                <button type="submit" class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-700">Send</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="bg-gray-800 text-white text-center fixed bottom-0 w-full">
+        <div class="bg-gray-800 text-white py-4 mt-auto">
+            &copy; 2024 SCTSPL. All rights reserved. <br>
+            GST: 27ABMCS4612E1ZC
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
